@@ -502,6 +502,7 @@ button.open-menu path[stroke*='00856F'],
     color: initial;
     background-color: initial;
     font-weight: initial;
+    filter: initial;
   }
   nav#navigation .close-menu,
   nav#navigation .open-menu,
@@ -564,9 +565,8 @@ button.open-menu path[stroke*='00856F'],
   nav#navigation .menu li a.active,
   nav#navigation .menu li a:hover {
     opacity: 1;
-    font-weight: 600;
   }
-  .active,
+ 
   nav#navigation .menu li a::after {
     content: '';
     width: 0;
